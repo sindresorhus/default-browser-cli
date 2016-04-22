@@ -1,0 +1,53 @@
+{
+  "name": "default-browser-cli",
+  "version": "0.0.0",
+  "description": "Get the default browser",
+  "license": "MIT",
+  "repository": "sindresorhus/default-browser-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "default-browser": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "osx",
+    "linux",
+    "browser",
+    "default",
+    "plist",
+    "web",
+    "bundle",
+    "bundleid",
+    "id",
+    "identifier",
+    "uti",
+    "CFBundleName",
+    "applescript"
+  ],
+  "dependencies": {
+    "default-browser": "^2.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
