@@ -1,6 +1,6 @@
 # default-browser-cli [![Build Status](https://travis-ci.org/sindresorhus/default-browser-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/default-browser-cli)
 
-> Get the default browser (OS X and Linux)
+> Get the default browser (macOS and Linux)
 
 
 ## Install
