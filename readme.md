@@ -1,14 +1,14 @@
 # default-browser-cli
 
-> Get the default browser (macOS and Linux)
+> Get the default browser
 
+Works on macOS and Linux.
 
 ## Install
 
 ```
 $ npm install --global default-browser-cli
 ```
-
 
 ## Usage
 
@@ -20,12 +20,6 @@ $ default-browser --help
     Safari
 ```
 
-
 ## Related
 
-- [default-browser](https://github.com/sindresorhus/default-browser) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+- [default-browser](https://github.com/sindresorhus/default-browser) - API for this package

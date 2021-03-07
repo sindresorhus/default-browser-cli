@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const defaultBrowser = require('default-browser');
+import meow from 'meow';
+import defaultBrowser from 'default-browser';
 
 meow(`
 	Example
@@ -9,4 +8,7 @@ meow(`
 	  Safari
 `);
 
-defaultBrowser().then(data => console.log(data.name));
+(async () => {
+	const {name} = await defaultBrowser();
+	console.log(name);
+})();
