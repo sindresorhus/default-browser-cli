@@ -6,8 +6,8 @@ Works on macOS and Linux.
 
 ## Install
 
-```
-$ npm install --global default-browser-cli
+```sh
+npm install --global default-browser-cli
 ```
 
 ## Usage

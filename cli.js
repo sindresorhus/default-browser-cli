@@ -6,9 +6,9 @@ meow(`
 	Example
 	  $ default-browser
 	  Safari
-`);
+`, {
+	importMeta: import.meta,
+});
 
-(async () => {
-	const {name} = await defaultBrowser();
-	console.log(name);
-})();
+const {name} = await defaultBrowser();
+console.log(name);
