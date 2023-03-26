@@ -1,6 +1,6 @@
 {
 	"name": "default-browser-cli",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Get the default browser",
 	"license": "MIT",
 	"repository": "sindresorhus/default-browser-cli",
